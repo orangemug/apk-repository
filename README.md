@@ -14,6 +14,7 @@ Install any of the packages from repository with
 
 ```sh
 apk add \
+  --update \
   --allow-untrusted \
   --repository 'https://github.com/orangemug/apk-repository/releases/download/master' \
   <package-name>
